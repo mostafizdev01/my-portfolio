@@ -3,6 +3,7 @@ import React from 'react'
 import animationData from "../../assets/lottile/bg.json";
 import Lottie from 'lottie-react';
 import AboutMe from '../../Containers/AboutMe';
+import Navbar from '../../Containers/Navbar';
 
 export default function MainPage() {
   return (
@@ -14,9 +15,12 @@ export default function MainPage() {
         </div>
 
         {/* Scrollable Content */}
-        <div className="relative z-10 text-center text-white space-y-10">
+        <div className="relative z-10 text-center text-white space-y-10 container mx-auto">
         {/* <AboutMe /> */}
-        <h2 className=' bg-red-200'>amr sonar bangla ami tomai valo basi</h2>
+        <Navbar />
+        <div className=' bg-gray-300'>
+          <h2>this is about page here now</h2>
+        </div>
         </div>
       </div>
     </>
