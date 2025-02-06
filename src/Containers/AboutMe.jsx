@@ -19,9 +19,7 @@ export default function AboutMe() {
                 </h1>
                 <h3 className=" w-full text-[#813aeb] font-bold text-xl mb-5">Full-Stack Developer</h3>
                 <p className=" text-base text-body-color dark:text-dark-6 w-full">
-                  Hi, I’m Mostafiz, a passionate self-taught programmer from Bangladesh. Basically I build several web application based on JavaScript. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and catch user’s eye. I am especially focusing on ReactJS & NodeJS.
-
-                  I also do WordPress and UI-UX designing. Since I love both, programming and designing. I’m also interested in open source, and creative coding projects
+                I'm Mostafiz, a passionate full-stack developer specializing in JavaScript, React.js, Next.js, and MongoDB. I enjoy building scalable web applications, user-friendly interfaces, and robust backend systems. My journey into programming started with curiosity, leading me to develop interactive and efficient digital solutions. Outside of coding, I love exploring new places, outdoor activities, and spending time with friends and family. I believe in continuous learning, teamwork, and creating impactful solutions.
                 </p>
                 <ul className=" w-full my-3 flex gap-5">
                   <li className=" bg-[#570acc] hover:bg-[#580accb9] w-10 h-10 flex justify-center items-center rounded-full text-lg"><Link to=""><FaLinkedinIn /></Link></li>
@@ -31,7 +29,7 @@ export default function AboutMe() {
                 </ul>
                 <ul className="flex flex-wrap items-center gap-5 w-full">
                   <li><button className="btn bg-[#570acc] border-none text-lg"><FaCloudDownloadAlt /> Resume</button></li>
-                  <li><button className="btn  text-lg"><MdOutlineEmail /> Contact</button></li>
+                  <li><button className="btn  text-lg border border-gray-600 hover:border-[#5104c5]"><MdOutlineEmail /> Contact</button></li>
                 </ul>
               </div>
             </div>
@@ -88,99 +86,3 @@ export default function AboutMe() {
     </>
   );
 };
-
-
-// const SingleImage = ({ href, imgSrc }) => {
-//   return (
-//     <>
-//       <a href={href} className="flex w-full items-center justify-center">
-//         <img src={imgSrc} alt="brand image" className="h-10 w-full" />
-//       </a>
-//     </>
-//   );
-// };
-
-// const Navbar = () => {
-//   const [open, setOpen] = useState(false);
-
-//   return (
-//     <header className={`absolute left-0 top-0 z-20 flex w-full items-center`}>
-//       <div className="container">
-//         <div className="relative -mx-4 flex items-center justify-between">
-//           <div className="w-60 max-w-full px-4">
-//             <a href="/#" className="block w-full py-5">
-//               <img
-//                 src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
-//                 alt="logo"
-//                 className="w-full dark:hidden"
-//               />
-//               <img
-//                 src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
-//                 alt="logo"
-//                 className="w-full hidden dark:block"
-//               />
-//             </a>
-//           </div>
-//           <div className="flex w-full items-center justify-between px-4">
-//             <div>
-//               <button
-//                 onClick={() => setOpen(!open)}
-//                 id="navbarToggler"
-//                 className={` ${
-//                   open && "navbarTogglerActive"
-//                 } absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
-//               >
-//                 <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
-//                 <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
-//                 <span className="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
-//               </button>
-//               <nav
-//                 id="navbarCollapse"
-//                 className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white px-6 py-5 shadow dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:shadow-none lg:dark:bg-transparent ${
-//                   !open && "hidden"
-//                 } `}
-//               >
-//                 <ul className="block lg:flex">
-//                   <ListItem NavLink="/#">Home</ListItem>
-//                   <ListItem NavLink="/#">Payment</ListItem>
-//                   <ListItem NavLink="/#">About</ListItem>
-//                   <ListItem NavLink="/#">Blog</ListItem>
-//                 </ul>
-//               </nav>
-//             </div>
-//             <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
-//               <a
-//                 href="/#"
-//                 className="px-7 py-3 text-base font-medium text-dark hover:text-primary dark:text-white"
-//               >
-//                 Sign in
-//               </a>
-
-//               <a
-//                 href="/#"
-//                 className="rounded-lg bg-primary px-7 py-3 text-base font-medium text-white hover:bg-opacity-90"
-//               >
-//                 Sign Up
-//               </a>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </header>
-//   );
-// };
-
-// const ListItem = ({ children, NavLink }) => {
-//   return (
-//     <>
-//       <li>
-//         <a
-//           href={NavLink}
-//           className="flex py-2 text-base font-medium text-dark hover:text-primary dark:text-white lg:ml-10 lg:inline-flex"
-//         >
-//           {children}
-//         </a>
-//       </li>
-//     </>
-//   );
-// };

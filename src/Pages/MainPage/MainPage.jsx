@@ -1,9 +1,11 @@
 import React from 'react'
 // import animationData from "../../assets/lottile/projapoti.json";
 import animationData from "../../assets/lottile/bg.json";
+// import animationData from "../../assets/lottile/bgani.json";
 import Lottie from 'lottie-react';
 import AboutMe from '../../Containers/AboutMe';
 import Navbar from '../../Containers/Navbar';
+import Skills from '../../Containers/Skills';
 
 export default function MainPage() {
   return (
@@ -18,6 +20,7 @@ export default function MainPage() {
         <div className="relative z-10 text-center text-white space-y-10 container mx-auto">
         <Navbar />
         <AboutMe />
+        <Skills />
         </div>
       </div>
     </>
