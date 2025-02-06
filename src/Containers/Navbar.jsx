@@ -1,26 +1,30 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
+
+    // schrolling sctions starting 
+
+    const [bgColor, setBgColor] = useState("");
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollY = window.scrollY;
+            setBgColor(scrollY > 100 ? "bg-black/30 backdrop-blur-md rounded-lg" : "");
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+
     return (
         <>
-            <header className={`flex w-full items-center dark:bg-dark`}>
-                <div className="container">
+            <header className={`flex w-full items-center dark:bg-dark sticky top-0 z-50`}>
+                <div className={`${bgColor} container py-3`}>
                     <div className="relative -mx-4 flex items-center justify-between">
-                        <div className="w-60 max-w-full px-4">
-                            <a href="/" className="block w-full py-5">
-                                <img
-                                    src="https://i.ibb.co.com/TD32htb1/icons8-subway-67.png"
-                                    alt="logo"
-                                    className="dark:hidden"
-                                />
-                                <img
-                                    src="https://i.ibb.co.com/TD32htb1/icons8-subway-67.png"
-                                    alt="logo"
-                                    className="hidden dark:block"
-                                />
-                            </a>
+                        <div className=" text-left ml-7 text-4xl font-bold text-[#570acc]">
+                            <Link to="/">M.D</Link>
                         </div>
                         <div className="flex w-full items-center justify-between px-4">
                             <div>
