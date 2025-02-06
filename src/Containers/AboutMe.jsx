@@ -13,10 +13,11 @@ export default function AboutMe() {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-5/12">
               <div className="hero-content flex flex-col text-left">
-                <h1 className="mb-5 w-full text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
+                <h1 className=" w-full text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
                   Hi there! <br />
                   <span className=" text-[#5104c5]">I'm Mostafiz</span>
                 </h1>
+                <h3 className=" w-full text-[#813aeb] font-bold text-xl mb-5">Full-Stack Developer</h3>
                 <p className=" text-base text-body-color dark:text-dark-6 w-full">
                   Hi, I’m Mostafiz, a passionate self-taught programmer from Bangladesh. Basically I build several web application based on JavaScript. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and catch user’s eye. I am especially focusing on ReactJS & NodeJS.
 
