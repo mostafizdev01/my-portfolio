@@ -6,6 +6,7 @@ import Lottie from 'lottie-react';
 import AboutMe from '../../Containers/AboutMe';
 import Navbar from '../../Containers/Navbar';
 import Skills from '../../Containers/Skills';
+import Projects from '../../Containers/Projects';
 
 export default function MainPage() {
   return (
@@ -21,6 +22,7 @@ export default function MainPage() {
         <Navbar />
         <AboutMe />
         <Skills />
+        <Projects />
         </div>
       </div>
     </>
