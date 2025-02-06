@@ -7,6 +7,7 @@ import AboutMe from '../../Containers/AboutMe';
 import Navbar from '../../Containers/Navbar';
 import Skills from '../../Containers/Skills';
 import Projects from '../../Containers/Projects';
+import Builder from '../../Containers/Builder';
 
 export default function MainPage() {
   return (
@@ -21,6 +22,7 @@ export default function MainPage() {
         <div className="relative z-10 text-center text-white space-y-10 container mx-auto">
         <Navbar />
         <AboutMe />
+        <Builder />
         <Skills />
         <Projects />
         </div>
