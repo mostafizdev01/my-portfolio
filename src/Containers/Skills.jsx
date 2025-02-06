@@ -9,7 +9,7 @@ export default function Skills() {
     return (
         <>
         <TitleSection title={'Skills'} />
-        <div className="skills-container flex justify-between items-center gap-10">
+        <div className="skills-container md:flex justify-between items-center gap-10">
             <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
                 <div className='  w-8/12 h-68'>
                     <Lottie  animationData={language}></Lottie>
