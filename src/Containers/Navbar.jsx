@@ -54,7 +54,7 @@ export default function Navbar() {
 
                                 <a
                                     href="/#"
-                                    className="rounded-md bg-primary px-7 py-3 text-base font-medium text-white hover:bg-primary/90"
+                                    className="rounded-md bg-[#570acc] px-7 py-3 text-base font-medium text-white hover:bg-primary/90"
                                 >
                                     Resume
                                 </a>

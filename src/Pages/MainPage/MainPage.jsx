@@ -16,11 +16,8 @@ export default function MainPage() {
 
         {/* Scrollable Content */}
         <div className="relative z-10 text-center text-white space-y-10 container mx-auto">
-        {/* <AboutMe /> */}
         <Navbar />
-        <div className=' bg-gray-300'>
-          <h2>this is about page here now</h2>
-        </div>
+        <AboutMe />
         </div>
       </div>
     </>
