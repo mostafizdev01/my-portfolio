@@ -8,6 +8,7 @@ import Navbar from '../../Containers/Navbar';
 import Skills from '../../Containers/Skills';
 import Projects from '../../Containers/Projects';
 import Builder from '../../Containers/Builder';
+import Achievements from '../../Containers/Achievements';
 
 export default function MainPage() {
   return (
@@ -25,6 +26,7 @@ export default function MainPage() {
         <Builder />
         <Skills />
         <Projects />
+        <Achievements />
         </div>
       </div>
     </>
