@@ -10,6 +10,7 @@ import Projects from '../../Containers/Projects';
 import Builder from '../../Containers/Builder';
 import Achievements from '../../Containers/Achievements';
 import Contact from '../../Containers/Contact';
+import Footer from '../../Containers/Footer';
 
 export default function MainPage() {
   return (
@@ -29,6 +30,7 @@ export default function MainPage() {
         <Projects />
         <Achievements />
         <Contact />
+        <Footer />
         </div>
       </div>
     </>
