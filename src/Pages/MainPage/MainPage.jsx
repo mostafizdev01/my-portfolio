@@ -9,6 +9,7 @@ import Skills from '../../Containers/Skills';
 import Projects from '../../Containers/Projects';
 import Builder from '../../Containers/Builder';
 import Achievements from '../../Containers/Achievements';
+import Contact from '../../Containers/Contact';
 
 export default function MainPage() {
   return (
@@ -27,6 +28,7 @@ export default function MainPage() {
         <Skills />
         <Projects />
         <Achievements />
+        <Contact />
         </div>
       </div>
     </>

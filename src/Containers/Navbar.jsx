@@ -23,7 +23,7 @@ export default function Navbar() {
             <header className={`flex w-full items-center dark:bg-dark sticky top-0 z-50`}>
                 <div className={`${bgColor} container py-3`}>
                     <div className="relative -mx-4 flex items-center justify-between">
-                        <div className=" text-left ml-7 text-4xl font-bold text-[#570acc]">
+                        <div className=" text-left ml-7 text-3xl font-bold text-[#570acc]">
                             <Link to="/">M.D</Link>
                         </div>
                         <div className="flex w-full items-center justify-between px-4">
