@@ -54,7 +54,7 @@ export default function Projects() {
                 <Link to='/'>
                     <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
                         <div className=' flex justify-between items-center w-full'>
-                            <div className=' text-2xl text-[#f3ba1e] font-bold'>FoodSharing</div>
+                            <div className=' text-2xl text-[#f3ba1e] font-bold'>Bistro Boss</div>
                             <div className=' text-2xl text-[#f3ba1e]'><Link><RiExternalLinkLine /></Link></div>
                             {/* <Lottie animationData={language}></Lottie> */}
                         </div>
