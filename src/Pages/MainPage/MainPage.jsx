@@ -17,20 +17,20 @@ export default function MainPage() {
     <>
       <div className="relative min-h-screen">
         {/* Fixed Lottie Background */}
-        <div className="fixed bg-[#0E0E1B] inset-0 -z-10 w-full h-screen">
+        <div className="fixed bg-[#0E0E1B] inset-0 -z-10 w-full min-h-full h-screen">
           <Lottie animationData={animationData} loop className="w-full h-full object-cover" />
         </div>
 
         {/* Scrollable Content */}
-        <div className="relative z-10 text-center text-white space-y-10 container mx-auto">
+        <div className="relative z-10 text-center text-white space-y-10 container mx-auto w-11/12">
         <Navbar />
-        <AboutMe />
-        <Builder />
-        <Skills />
-        <Projects />
-        <Achievements />
-        <Contact />
-        <Footer />
+        <div><AboutMe /></div>
+        <div><Builder /></div>
+        <div><Skills /></div>
+        <div><Projects /></div>
+        <div><Achievements /></div>
+        <div><Contact /></div>
+        <div><Footer /></div>
         </div>
       </div>
     </>

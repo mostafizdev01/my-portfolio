@@ -31,7 +31,7 @@ export default function Projects() {
                 {/* 2nd section */}
 
                 <Link to='/'>
-                    <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
+                    <div className="bg-black/30 my-5 md:my-0 backdrop-blur-md rounded-lg p-4 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
                         <div className=' flex justify-between items-center w-full'>
                             <div className=' text-2xl text-[#f33b54] font-bold'>FoodSharing</div>
                             <div className=' text-2xl text-[#f33b54]'><Link><RiExternalLinkLine /></Link></div>
@@ -45,7 +45,7 @@ export default function Projects() {
                             <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>Node Js</li>
                             <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>Firebase</li>
                             <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>HTML</li>
-                            <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>CSS</li>
+                            {/* <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>CSS</li> */}
                         </ul>
                     </div>
                 </Link>
@@ -72,7 +72,7 @@ export default function Projects() {
 
                 {/* 4th section */}
                 <Link to='/'>
-                    <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
+                    <div className="bg-black/30 backdrop-blur-md my-5 md:my-0 rounded-lg p-4 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
                         <div className=' flex justify-between items-center w-full'>
                             <div className=' text-2xl text-[#60f542] font-bold'>FoodSharing</div>
                             <div className=' text-2xl text-[#60f542]'><Link><RiExternalLinkLine /></Link></div>
@@ -86,7 +86,7 @@ export default function Projects() {
                             <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>Node Js</li>
                             <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>Express Js</li>
                             <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>HTML</li>
-                            <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>Tailwind</li>
+                            {/* <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>Tailwind</li> */}
                         </ul>
                     </div>
                 </Link>
@@ -113,7 +113,7 @@ export default function Projects() {
 
                 {/* 6th section */}
                 <Link to='https://tailwindui.com/components' target='_blank'>
-                    <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
+                    <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 w-full mt-5 md:mt-0 border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
                         <div className=' flex justify-between items-center w-full'>
                             <div className=' text-2xl text-[#da1ef3] font-bold'>FoodSharing</div>
                             <div className=' text-2xl text-[#da1ef3]'><Link to='https://tailwindui.com/components' target='_blank'><RiExternalLinkLine /></Link></div>
@@ -127,7 +127,7 @@ export default function Projects() {
                             <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>Js</li>
                             <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>Tailwind</li>
                             <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>HTML</li>
-                            <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>Figma</li>
+                            {/* <li className=' bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md hover:border-[#7e31f1ab] border border-gray-800'>Figma</li> */}
                         </ul>
                     </div>
                 </Link>

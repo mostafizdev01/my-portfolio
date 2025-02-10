@@ -28,7 +28,7 @@ export default function Skills() {
 
             {/* 2nd section */}
 
-            <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
+            <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 my-5 md:my-0 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
                 <div className=' w-8/12 h-68'>
                     <Lottie  animationData={database}></Lottie>
                 </div>

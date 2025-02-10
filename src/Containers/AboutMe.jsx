@@ -40,7 +40,7 @@ export default function AboutMe() {
                   <img
                     src="https://i.ibb.co.com/HfSv1rjn/download10.jpg"
                     alt="hero"
-                    className=" lg:ml-auto max-w-md rounded-tl-full rounded-tr-full rounded-br-full"
+                    className=" lg:ml-auto w-80 md:max-w-md rounded-tl-full rounded-tr-full rounded-br-full"
                   />
                   <span className="absolute -bottom-8 -left-8 z-[-1]">
                     <svg

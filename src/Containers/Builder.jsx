@@ -27,7 +27,7 @@ export default function Builder() {
 
                 {/* 2nd section */}
 
-                <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
+                <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 my-5 md:my-0 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
                     <div className=' flex flex-col justify-between items-center w-full'>
                         <div className=' w-6/12'>
                             <Lottie animationData={design}></Lottie>

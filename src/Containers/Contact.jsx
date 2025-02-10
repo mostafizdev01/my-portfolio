@@ -1,15 +1,16 @@
 import React from 'react'
 import TitleSection from './TitleSection'
 import { LuSend } from 'react-icons/lu'
-import { FaFacebookF, FaLinkedinIn, FaTelegramPlane, FaTwitter, FaWhatsapp } from 'react-icons/fa'
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaTelegramPlane, FaTwitter, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import { FaXTwitter } from 'react-icons/fa6'
 
 export default function Contact() {
   return (
     <>
       <TitleSection title={'Contact Us'} />
 
-      <div className=' flex gap-20 pb-20'>
+      <div className=' md:flex gap-20 pb-20'>
         <div className=' w-full text-left'>
           <button className="btn rounded-full border border-[#570acc]">CONTACT ME!</button>
           <h1 className=" w-full text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
@@ -21,16 +22,16 @@ export default function Contact() {
           <div className="divider"></div>
           <h4 className=' text-xl'> Follow Me</h4>
           <ul className=" w-full my-3 flex gap-5">
-            <li className=" bg-[#570acc] hover:bg-[#580accb9] w-10 h-10 flex justify-center items-center rounded-full text-lg"><Link to=""><FaLinkedinIn /></Link></li>
-            <li className=" bg-[#570acc] hover:bg-[#580accb9] w-10 h-10 flex justify-center items-center rounded-full text-lg"><Link to=""><FaTwitter /></Link></li>
             <li className=" bg-[#570acc] hover:bg-[#580accb9] w-10 h-10 flex justify-center items-center rounded-full text-lg"><Link to=""><FaFacebookF /></Link></li>
-            <li className=" bg-[#570acc] hover:bg-[#580accb9] w-10 h-10 flex justify-center items-center rounded-full text-lg"><Link to=""><FaWhatsapp /></Link></li>
+            <li className=" bg-[#570acc] hover:bg-[#580accb9] w-10 h-10 flex justify-center items-center rounded-full text-lg"><Link to=""><FaLinkedinIn /></Link></li>
+            <li className=" bg-[#570acc] hover:bg-[#580accb9] w-10 h-10 flex justify-center items-center rounded-full text-lg"><Link to=""><FaGithub /></Link></li>
+            <li className=" bg-[#570acc] hover:bg-[#580accb9] w-10 h-10 flex justify-center items-center rounded-full text-lg"><Link to=""><FaXTwitter /></Link></li>
           </ul>
         </div>
 
         {/* contact from start  now*/}
 
-        <div className=' w-full py-10 px-20 rounded-lg bg-white/5 backdrop-blur-md'>
+        <div className=' w-full py-10 px-5 md:px-20 rounded-lg bg-white/5 mt-20 md:mt-0 backdrop-blur-md'>
           <h2 className=' text-3xl font-semibold font-sans text-[#ddd8e4]'>Message Me!</h2>
           <form action="#" method="POST" className="space-y-6 w-full">
             <div>
@@ -72,7 +73,7 @@ export default function Contact() {
                 type="submit"
                 className="flex w-full justify-center items-center gap-2 rounded-md bg-[#570acc] px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs cursor-pointer hover:bg-[#580accde] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                <span className=' '><FaTelegramPlane /></span> Message
+                <span className=' '><FaTelegramPlane /></span> Send
               </button>
             </div>
           </form>
