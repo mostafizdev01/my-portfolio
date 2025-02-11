@@ -115,7 +115,7 @@ export default function Projects() {
                 <Link to='https://tailwindui.com/components' target='_blank'>
                     <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 w-full mt-5 md:mt-0 border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
                         <div className=' flex justify-between items-center w-full'>
-                            <div className=' text-2xl text-[#da1ef3] font-bold'>FoodSharing</div>
+                            <div className=' text-2xl text-[#da1ef3] font-bold'>Movie portal</div>
                             <div className=' text-2xl text-[#da1ef3]'><Link to='https://tailwindui.com/components' target='_blank'><RiExternalLinkLine /></Link></div>
                             {/* <Lottie animationData={language}></Lottie> */}
                         </div>
