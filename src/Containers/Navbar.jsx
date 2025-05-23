@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { FaCloudDownloadAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
@@ -60,9 +61,9 @@ export default function Navbar() {
 
                                 <a
                                     href="/#"
-                                    className="rounded-md bg-[#570acc] px-7 py-3 text-base font-medium text-white hover:bg-primary/90"
+                                    className="rounded-md bg-[#570acc] hover:bg-[#540acce8] flex justify-center items-center gap-2 px-7 py-3 text-base font-medium text-white"
                                 >
-                                    Resume
+                                   <FaCloudDownloadAlt /> Resume
                                 </a>
                             </div>
                         </div>
