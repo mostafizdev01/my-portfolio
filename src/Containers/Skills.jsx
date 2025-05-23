@@ -11,7 +11,7 @@ export default function Skills() {
     return (
         <>
             <TitleSection title={'Skills'} />
-            <Marquee direction='right' gradient={true} gradientColor='#0E0E1B'>
+            <Marquee direction='right' gradient={true} gradientColor='#0E0E1B' pauseOnHover={true}>
                 <div className="skills-container grid grid-cols-8 md:grid-cols-6 gap-5 w-[1200px] mt-5 md:w-[1515px]">
                     <SkillLogo iconName='FaHtml5' logoName={'HTML'}></SkillLogo>
                     <SkillLogo iconName='FaCss3Alt' logoName={'CSS'}></SkillLogo>
@@ -37,7 +37,7 @@ export default function Skills() {
                 </div>
             </Marquee>
             {/* 2nd */}
-            <Marquee direction='left' gradient={true} gradientColor='#0E0E1B'>
+            <Marquee direction='left' gradient={true} gradientColor='#0E0E1B' pauseOnHover={true}>
                 <div className="skills-container grid grid-cols-8 md:grid-cols-6 gap-5 w-[1200px] mt-5 md:w-[1515px]">
                     <SkillLogo iconName='FaGitAlt' logoName={'Git'}></SkillLogo>
                     <SkillLogo iconName='FaGithub' logoName={'GitHub'}></SkillLogo>
@@ -48,8 +48,8 @@ export default function Skills() {
                 </div>
             </Marquee>
             {/* 3rd */}
-            <Marquee direction='right' gradient={true} gradientColor='#0E0E1B'>
-                <div className="skills-container grid grid-cols-8 md:grid-cols-6 gap-5 w-[1200px] mt-5 md:w-[1515px] mb-40">
+            <Marquee direction='right' gradient={true} gradientColor='#0E0E1B' pauseOnHover={true}>
+                <div className="skills-container grid grid-cols-8 md:grid-cols-6 gap-5 w-[1200px] mt-5 md:w-[1515px]">
                     {/* <SkillLogo iconName='FaHtml5' logoName={'HTML'}></SkillLogo>
                 <SkillLogo iconName='FaCss3Alt' logoName={'CSS'}></SkillLogo>
                 <SkillLogo iconName='SiTailwindcss' logoName={'Tailwind'}></SkillLogo>

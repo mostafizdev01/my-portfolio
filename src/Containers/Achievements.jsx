@@ -10,7 +10,7 @@ export default function Achievements() {
     return (
         <>
             <TitleSection title={'Achievements'} />
-            <div className=' md:flex justify-between items-center gap-10 mb-48'>
+            <div className=' md:flex justify-between items-center gap-10'>
                 <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
                     <div className=' flex flex-col justify-between items-center w-full'>
                         <div className=' w-6/12'>

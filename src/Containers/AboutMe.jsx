@@ -8,7 +8,7 @@ export default function AboutMe() {
   return (
     <>
       {/* <Navbar /> */}
-      <div className="relative pb-[110px] pt-[120px] dark:bg-dark lg:pt-[150px]">
+      <div className="relative pt-[120px] dark:bg-dark lg:pt-[150px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-5/12">

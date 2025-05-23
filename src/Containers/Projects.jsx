@@ -7,7 +7,7 @@ export default function Projects() {
     return (
         <>
             <TitleSection title="Project" />
-            <div className=' md:grid grid-cols-3 gap-10 mb-48'>
+            <div className=' md:grid grid-cols-3 gap-10'>
 
                 <Link to='/'>
                     <div className="bg-black/30 backdrop-blur-md rounded-lg p-4 w-full border-2 flex flex-col justify-center items-center border-gray-800 hover:border-[#5104c5ce]">
