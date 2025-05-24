@@ -34,13 +34,13 @@ export default function AboutMe() {
               </div>
             </div>
             <div className="hidden px-4 lg:block lg:w-1/12"></div>
-            <div className="w-full px-4 lg:w-6/12">
+            <div className="w-full px-4 lg:w-6/12 flex justify-center items-center">
               <div className="lg:ml-auto lg:text-right">
                 <div className="relative z-10 inline-block pt-11 lg:pt-0">
                   <img
                     src="https://i.ibb.co.com/HfSv1rjn/download10.jpg"
                     alt="hero"
-                    className=" lg:ml-auto w-80 md:max-w-md rounded-tl-full rounded-tr-full rounded-br-full"
+                    className=" lg:ml-auto w-full md:max-w-md rounded-tl-full rounded-tr-full rounded-br-full"
                   />
                   <span className="absolute -bottom-8 -left-8 z-[-1]">
                     <svg
