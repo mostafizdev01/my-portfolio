@@ -5,7 +5,7 @@ export default function Footer() {
     <>
     <div className="divider"></div>
     <div>
-        <span>© 2025 All rights reserved - <span className=' text-[#6c1fe0] font-semibold text-lg pb-5 cursor-pointer'>Mostafiz</span></span>
+        <span>© {new Date().getFullYear()} All rights reserved - <span className=' text-[#6c1fe0] font-semibold text-lg pb-5 cursor-pointer'>Mostafiz</span></span>
     </div>
     </>
   )

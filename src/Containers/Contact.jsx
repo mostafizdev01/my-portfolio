@@ -12,7 +12,7 @@ export default function Contact() {
 
       <div className=' md:flex gap-20 pb-20'>
         <div className=' w-full text-left'>
-          <button className="btn rounded-full border border-[#570acc]">CONTACT ME!</button>
+          <button className="btn rounded-full border border-[#570acc] mb-5">CONTACT ME!</button>
           <h1 className=" w-full text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
             Let's Get In Touch!
           </h1>
